@@ -1,8 +1,10 @@
 function temSaldo(saldo) {
-    if ( saldo > 0) {
+    if (saldo > 0) {
         return `Seu saldo é R$ ${saldo}`;
+    } else if (saldo === 0) {
+        return "Você não tem saldo nenhum!";
     } else {
-        return `Você não tem saldo nenhum!`;
+        return "Seu saldo está negativo!";
     }
 }
 

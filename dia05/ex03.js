@@ -1,11 +1,11 @@
 function parOuImpar(n) {
-    if (n % 2 === 0) {
-        return "Esse número é par!"
-    } else if (n === 0) {
-        return "Esse número é zero!"
+    if (n === 0) {
+        return "Esse número é zero!";
+    } else if (n % 2 === 0) {
+        return "Esse número é par!";
     } else {
-        return "Esse número é impar"
+        return "Esse número é ímpar!";
     }
 }
 
-console.log(parOuImpar(0))
+console.log(parOuImpar(0));

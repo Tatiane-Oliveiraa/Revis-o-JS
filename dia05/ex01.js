@@ -1,6 +1,6 @@
-function myName(nome) {
+function myName() {
     let nome = "Tatiane";
+    return nome;
 }
 
-console.log(myName)
-
+console.log(myName());

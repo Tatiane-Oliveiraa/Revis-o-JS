@@ -1,3 +1,3 @@
-const myName = name => name = "Tatiane";
+const myName = () => "Tatiane";
 
-console.log(myName);
+console.log(myName());
